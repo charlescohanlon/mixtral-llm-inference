@@ -1,0 +1,24 @@
+name: base
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python
+  - pip:
+    - vllm
+    - chainlit
+  - numpy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - huggingface_hub
+  - transformers
+  - tokenizers
+  - safetensors
+  - onnx
+  - ollama
+  - llama-index
+  - langchain
+  - pydantic
